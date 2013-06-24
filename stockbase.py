@@ -17,14 +17,23 @@ class StockBase(object):
     P_MONTH = u"month"
     P_YEAR = u"year"
     
-    def __init__(self, name=None, number=None, period=StockBase.P_DAY):
+    def __init__(self, name=None, number=None, period=P_DAY):
         self.name = name
         self.number = number
         self.period = period
         self.period_number = 1
         self.exchange_rate = -1
         self.change_rate = 0
-    
+        self.volume = -1
+        self.turnover = -1
+        self.total_share = -1
+        self.tradable_share = -1
+        self.change_range = -1
+        self.price = -1
+        self.total_holder = -1
+        self.perholding = -1
+        self.industry_sector = None
+        self.listing_date = None
     
 
 class StockAnalyzing(object):

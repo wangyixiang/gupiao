@@ -7,6 +7,8 @@ DI = u"第"
 DU = u"度"
 ZHONGQI = u"中期"
 QIAN = u"前"
+WAN = u"万"
+YI = u"亿"
 
 KIND_MARKET_SHANGHAI_A_SHARE = 1
 KIND_MARKET_SHENGZHEN_A_SHARE = 2
